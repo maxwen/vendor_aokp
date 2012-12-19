@@ -75,3 +75,11 @@ PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallp
 
 # T-Mobile theme engine
 -include vendor/aokp/configs/themes_common.mk
+
+#### Goo Manager support
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.goo.developerid=maxwen \
+    ro.goo.board=$(subst full_,,$(TARGET_PRODUCT)) \
+	ro.goo.rom=AOKP42enrc2b \
+	ro.goo.version=$(shell date -u +%Y%m%d)
+
