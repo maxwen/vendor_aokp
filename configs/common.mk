@@ -81,3 +81,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.goo.rom=AOKP42enrc2b \
 	ro.goo.version=$(shell date -u +%Y%m%d)
 
+# common boot animation
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+
