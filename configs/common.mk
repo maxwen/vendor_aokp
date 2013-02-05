@@ -9,7 +9,6 @@ PRODUCT_PACKAGES += \
     AppWidgetPicker \
     LatinImeDictionary \
     Microbes \
-    PerformanceControl \
     ROMControl \
     SuperSU \
     SwagPapers \
