@@ -1398,4 +1398,5 @@
   <apn carrier="ORANGE INTERNET" mcc="259" mnc="01" apn="wap.orange.md" type="default,supl" />
   <apn carrier="ORANGE MMS" mcc="259" mnc="01" apn="mms.orange.md" mmsproxy="192.168.127.125" mmsport="3128" mmsc="http://mms/mmsc" type="mms" />
   <apn carrier="Virgin Mobile CL" mcc="730" mnc="07" apn="imovil.virginmobile.cl" type="default" />
+  <apn carrier="hollandsnieuwe" mcc="204" mnc="04" apn="data.dataxs.mobi" user="" server="" password="" proxy="" port="" mmsproxy="" mmsport="" mmsprotocol="null" mmsc="" type="default,supl" />
 </apns>
