@@ -9,7 +9,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/dictionaries
 PRODUCT_PACKAGES += \
     AOKPtips \
     AppWidgetPicker \
-    LatinImeDictionary \
+    LatinImeDictionaryPack \
+    mGerrit \
     Microbes \
     ROMControl \
     Superuser \
