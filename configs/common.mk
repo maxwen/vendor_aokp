@@ -15,7 +15,6 @@ PRODUCT_PACKAGES += \
     Superuser \
     su \
     SwagPapers \
-    Torch \
     UnicornPorn
 
 PRODUCT_PROPERTY_OVERRIDES += \
