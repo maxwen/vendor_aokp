@@ -18,4 +18,4 @@ PRODUCT_MODEL := HTC One X+
 PRODUCT_MANUFACTURER := HTC
 
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation.zip
+    vendor/aokp/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation-alt.zip
