@@ -5,4 +5,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/manta.mk \
     $(LOCAL_DIR)/toro.mk \
     $(LOCAL_DIR)/toroplus.mk \
-    $(LOCAL_DIR)/enrc2b.mk
+    $(LOCAL_DIR)/enrc2b.mk \
+    $(LOCAL_DIR)/find5.mk
