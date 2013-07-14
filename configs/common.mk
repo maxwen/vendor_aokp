@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
-    vendor/aokp/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
 
 # init.d
@@ -90,4 +89,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # common boot animation
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
-
