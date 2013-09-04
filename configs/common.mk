@@ -82,7 +82,7 @@ PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallp
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=maxwen \
     ro.goo.board=$(subst full_,,$(TARGET_PRODUCT)) \
-	ro.goo.rom=AOKP42 \
+	ro.goo.rom=AOKP43 \
 	ro.goo.version=$(shell date -u +%Y%m%d)
 
 # common boot animation
