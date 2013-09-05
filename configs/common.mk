@@ -30,6 +30,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.kernel.android.checkjni=0 \
     persist.sys.root_access=3
 
+# Backup Tool
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/aokp/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
+    vendor/aokp/prebuilt/common/bin/blacklist:system/addon.d/blacklist
+
 # Installer
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/bin/persist.sh:install/bin/persist.sh \
